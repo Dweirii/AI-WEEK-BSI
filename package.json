@@ -1,0 +1,13 @@
+{
+  "name": "facegate",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "dev:web": "pnpm --filter @facegate/web dev"
+  }
+}
